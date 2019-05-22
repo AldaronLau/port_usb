@@ -21,3 +21,4 @@ keywords = ["device", "platform-agnostic", "cross-platform", "io", "usb"]
 categories = ["hardware-support", "os"]
 
 [dependencies]
+libusb = {path = "libusb-rs"}
