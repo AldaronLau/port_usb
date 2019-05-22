@@ -1,0 +1,23 @@
+# Port USB
+#
+# Copyright © 2019 Jeron Aldaron Lau.
+# Dual-licensed under either the MIT License or the Boost Software License, Version 1.0.
+# (See accompanying file LICENSE_BSL.txt or copy at https://www.boost.org/LICENSE_1_0.txt
+#  and accompanying file LICENSE_MIT.txt or copy at https://opensource.org/licenses/MIT)
+
+[package]
+name = "port_usb"
+version = "0.1.0"
+authors = ["Jeron Aldaron Lau <jeronaldaron@gmail.com>"]
+edition = "2018"
+
+license = "MIT / BSL-1.0"
+description = "Portable USB library for Rust."
+documentation = "https://docs.rs/port_usb"
+homepage = "https://jeronaldaron.github.io/port_usb/"
+repository = "https://github.com/JeronAldaron/port_usb"
+readme = "README.md"
+keywords = ["device", "platform-agnostic", "cross-platform", "io", "usb"]
+categories = ["hardware-support", "os"]
+
+[dependencies]
